@@ -1,0 +1,19 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Randomize Background Colors",
+      "identifier": "randomize-bg-colors",
+      "shortcut": "ctrl shift x",
+      "script": "./randomize-bg-colors.js"
+    }
+  ],
+  "menu": {
+    "title": "🔬 Mock",
+    "items": [
+      "randomize-bg-colors"
+    ]
+  }
+}
